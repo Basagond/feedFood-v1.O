@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FC4DC541E1A9DFE00987705 /* JSUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC4DC531E1A9DFE00987705 /* JSUIImageView.swift */; };
+		80FA135E1DE6E1B600F33193 /* JigyasaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FA135D1DE6E1B600F33193 /* JigyasaTests.swift */; };
+		80FA13691DE6E1B600F33193 /* JigyasaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FA13681DE6E1B600F33193 /* JigyasaUITests.swift */; };
+		80FA13991DE6EAB800F33193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FA13971DE6EAB800F33193 /* LaunchScreen.storyboard */; };
+		8A173F2F1E4AFA810043B36B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A173F2E1E4AFA810043B36B /* Main.storyboard */; };
+		8A173F311E4B5BC80043B36B /* JSServiceRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A173F301E4B5BC80043B36B /* JSServiceRequestManager.swift */; };
+		8A7ABE8D1E44595A00CE8505 /* JSHomeViewHeaderCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABE8C1E44595A00CE8505 /* JSHomeViewHeaderCellModel.swift */; };
+		8A7ABE8F1E44597500CE8505 /* JSActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABE8E1E44597500CE8505 /* JSActivityIndicator.swift */; };
+		8A7ABE911E44598C00CE8505 /* JSConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABE901E44598C00CE8505 /* JSConstants.swift */; };
+		8A7ABE951E4459CC00CE8505 /* JSUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABE941E4459CC00CE8505 /* JSUtility.swift */; };
+		8A7ABE971E4459E500CE8505 /* JSAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABE961E4459E500CE8505 /* JSAppDelegate.swift */; };
+		8A7ABE9B1E44604A00CE8505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A7ABE9A1E44604A00CE8505 /* Assets.xcassets */; };
+		8A7ABE9D1E4460A800CE8505 /* JSUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABE9C1E4460A800CE8505 /* JSUserDefaults.swift */; };
+		8A7ABE9F1E4460EE00CE8505 /* JSAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABE9E1E4460EE00CE8505 /* JSAboutViewController.swift */; };
+		8A7ABEA11E4460F400CE8505 /* JSHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEA01E4460F400CE8505 /* JSHelpViewController.swift */; };
+		8A7ABEA51E44612900CE8505 /* JSSuggestTrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEA41E44612900CE8505 /* JSSuggestTrainingViewController.swift */; };
+		8A7ABEA71E44614800CE8505 /* JSTrainingDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEA61E44614800CE8505 /* JSTrainingDetailsViewController.swift */; };
+		8A7ABEAD1E4461B200CE8505 /* JSTrainingHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEAB1E4461B200CE8505 /* JSTrainingHistoryTableViewCell.swift */; };
+		8A7ABEAE1E4461B200CE8505 /* JSTrainingHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEAC1E4461B200CE8505 /* JSTrainingHistoryViewController.swift */; };
+		8A7ABEB21E44624700CE8505 /* JSLogInViewController+Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEB01E44624700CE8505 /* JSLogInViewController+Container.swift */; };
+		8A7ABEB31E44624700CE8505 /* JSLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEB11E44624700CE8505 /* JSLogInViewController.swift */; };
+		8A7ABEB71E44625A00CE8505 /* JSMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEB51E44625A00CE8505 /* JSMenuTableViewController.swift */; };
+		8A7ABEB81E44625A00CE8505 /* JSSideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEB61E44625A00CE8505 /* JSSideMenuTableViewCell.swift */; };
+		8A7ABEBD1E44627300CE8505 /* JSAddManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEBA1E44627300CE8505 /* JSAddManagerViewController.swift */; };
+		8A7ABEBE1E44627300CE8505 /* JSAddNewTrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEBB1E44627300CE8505 /* JSAddNewTrainingViewController.swift */; };
+		8A7ABEBF1E44627300CE8505 /* JSLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEBC1E44627300CE8505 /* JSLocationViewController.swift */; };
+		8A7ABEC51E44629B00CE8505 /* JSHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEC11E44629B00CE8505 /* JSHomeViewController.swift */; };
+		8A7ABEC61E44629B00CE8505 /* JSTrainingGroupHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEC21E44629B00CE8505 /* JSTrainingGroupHeaderTableViewCell.swift */; };
+		8A7ABEC71E44629B00CE8505 /* JSTrainingSuggestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEC31E44629B00CE8505 /* JSTrainingSuggestionTableViewCell.swift */; };
+		8A7ABEC81E44629B00CE8505 /* JSTrainingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEC41E44629B00CE8505 /* JSTrainingTableViewCell.swift */; };
+		8A7ABECA1E447A0400CE8505 /* LaunchIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A7ABEC91E447A0400CE8505 /* LaunchIcon.png */; };
+		F023D1921DEEEA54003FC84B /* JSEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F023D1901DEEEA54003FC84B /* JSEmployee.swift */; };
+		F023D1931DEEEA54003FC84B /* JSEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F023D1911DEEEA54003FC84B /* JSEvent.swift */; };
+		F023D1B21DEEEB11003FC84B /* JSCustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F023D1B11DEEEB11003FC84B /* JSCustomColor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80FA135A1DE6E1B600F33193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80FA133D1DE6E1B600F33193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80FA13441DE6E1B600F33193;
+			remoteInfo = Jigyasa;
+		};
+		80FA13651DE6E1B600F33193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80FA133D1DE6E1B600F33193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80FA13441DE6E1B600F33193;
+			remoteInfo = Jigyasa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FC4DC531E1A9DFE00987705 /* JSUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSUIImageView.swift; sourceTree = "<group>"; };
+		80FA13451DE6E1B600F33193 /* Jigyasa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jigyasa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FA13591DE6E1B600F33193 /* JigyasaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JigyasaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FA135D1DE6E1B600F33193 /* JigyasaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JigyasaTests.swift; sourceTree = "<group>"; };
+		80FA135F1DE6E1B600F33193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80FA13641DE6E1B600F33193 /* JigyasaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JigyasaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FA13681DE6E1B600F33193 /* JigyasaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JigyasaUITests.swift; sourceTree = "<group>"; };
+		80FA136A1DE6E1B600F33193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80FA13901DE6E53700F33193 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Jigyasa/Info.plist; sourceTree = SOURCE_ROOT; };
+		80FA13971DE6EAB800F33193 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A173F2E1E4AFA810043B36B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8A173F301E4B5BC80043B36B /* JSServiceRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSServiceRequestManager.swift; sourceTree = "<group>"; };
+		8A7ABE8C1E44595A00CE8505 /* JSHomeViewHeaderCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSHomeViewHeaderCellModel.swift; sourceTree = "<group>"; };
+		8A7ABE8E1E44597500CE8505 /* JSActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSActivityIndicator.swift; sourceTree = "<group>"; };
+		8A7ABE901E44598C00CE8505 /* JSConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSConstants.swift; sourceTree = "<group>"; };
+		8A7ABE941E4459CC00CE8505 /* JSUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSUtility.swift; sourceTree = "<group>"; };
+		8A7ABE961E4459E500CE8505 /* JSAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSAppDelegate.swift; sourceTree = "<group>"; };
+		8A7ABE9A1E44604A00CE8505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A7ABE9C1E4460A800CE8505 /* JSUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSUserDefaults.swift; sourceTree = "<group>"; };
+		8A7ABE9E1E4460EE00CE8505 /* JSAboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSAboutViewController.swift; sourceTree = "<group>"; };
+		8A7ABEA01E4460F400CE8505 /* JSHelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSHelpViewController.swift; sourceTree = "<group>"; };
+		8A7ABEA41E44612900CE8505 /* JSSuggestTrainingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSSuggestTrainingViewController.swift; sourceTree = "<group>"; };
+		8A7ABEA61E44614800CE8505 /* JSTrainingDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSTrainingDetailsViewController.swift; sourceTree = "<group>"; };
+		8A7ABEAB1E4461B200CE8505 /* JSTrainingHistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSTrainingHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		8A7ABEAC1E4461B200CE8505 /* JSTrainingHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSTrainingHistoryViewController.swift; sourceTree = "<group>"; };
+		8A7ABEB01E44624700CE8505 /* JSLogInViewController+Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSLogInViewController+Container.swift"; sourceTree = "<group>"; };
+		8A7ABEB11E44624700CE8505 /* JSLogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSLogInViewController.swift; sourceTree = "<group>"; };
+		8A7ABEB51E44625A00CE8505 /* JSMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSMenuTableViewController.swift; sourceTree = "<group>"; };
+		8A7ABEB61E44625A00CE8505 /* JSSideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSSideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		8A7ABEBA1E44627300CE8505 /* JSAddManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSAddManagerViewController.swift; sourceTree = "<group>"; };
+		8A7ABEBB1E44627300CE8505 /* JSAddNewTrainingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSAddNewTrainingViewController.swift; sourceTree = "<group>"; };
+		8A7ABEBC1E44627300CE8505 /* JSLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSLocationViewController.swift; sourceTree = "<group>"; };
+		8A7ABEC11E44629B00CE8505 /* JSHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSHomeViewController.swift; sourceTree = "<group>"; };
+		8A7ABEC21E44629B00CE8505 /* JSTrainingGroupHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSTrainingGroupHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		8A7ABEC31E44629B00CE8505 /* JSTrainingSuggestionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSTrainingSuggestionTableViewCell.swift; sourceTree = "<group>"; };
+		8A7ABEC41E44629B00CE8505 /* JSTrainingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSTrainingTableViewCell.swift; sourceTree = "<group>"; };
+		8A7ABEC91E447A0400CE8505 /* LaunchIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchIcon.png; sourceTree = "<group>"; };
+		F023D1901DEEEA54003FC84B /* JSEmployee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSEmployee.swift; sourceTree = "<group>"; };
+		F023D1911DEEEA54003FC84B /* JSEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSEvent.swift; sourceTree = "<group>"; };
+		F023D1B11DEEEB11003FC84B /* JSCustomColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSCustomColor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80FA13421DE6E1B600F33193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FA13561DE6E1B600F33193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FA13611DE6E1B600F33193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80FA133C1DE6E1B600F33193 = {
+			isa = PBXGroup;
+			children = (
+				80FA13471DE6E1B600F33193 /* Jigyasa */,
+				80FA135C1DE6E1B600F33193 /* JigyasaTests */,
+				80FA13671DE6E1B600F33193 /* JigyasaUITests */,
+				80FA13461DE6E1B600F33193 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80FA13461DE6E1B600F33193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80FA13451DE6E1B600F33193 /* Jigyasa.app */,
+				80FA13591DE6E1B600F33193 /* JigyasaTests.xctest */,
+				80FA13641DE6E1B600F33193 /* JigyasaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80FA13471DE6E1B600F33193 /* Jigyasa */ = {
+			isa = PBXGroup;
+			children = (
+				8A7ABE961E4459E500CE8505 /* JSAppDelegate.swift */,
+				8A7ABE8E1E44597500CE8505 /* JSActivityIndicator.swift */,
+				8A7ABE901E44598C00CE8505 /* JSConstants.swift */,
+				8A7ABE9C1E4460A800CE8505 /* JSUserDefaults.swift */,
+				8A7ABE941E4459CC00CE8505 /* JSUtility.swift */,
+				8A173F301E4B5BC80043B36B /* JSServiceRequestManager.swift */,
+				8A7ABEC91E447A0400CE8505 /* LaunchIcon.png */,
+				80FA13961DE6EAB800F33193 /* StoryBoard */,
+				80FA137E1DE6E36800F33193 /* Extensions */,
+				80FA13801DE6E36800F33193 /* Models */,
+				80FA13891DE6E36800F33193 /* ViewControllers */,
+				80FA13901DE6E53700F33193 /* Info.plist */,
+				8A7ABE9A1E44604A00CE8505 /* Assets.xcassets */,
+			);
+			path = Jigyasa;
+			sourceTree = "<group>";
+		};
+		80FA135C1DE6E1B600F33193 /* JigyasaTests */ = {
+			isa = PBXGroup;
+			children = (
+				80FA135D1DE6E1B600F33193 /* JigyasaTests.swift */,
+				80FA135F1DE6E1B600F33193 /* Info.plist */,
+			);
+			path = JigyasaTests;
+			sourceTree = "<group>";
+		};
+		80FA13671DE6E1B600F33193 /* JigyasaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80FA13681DE6E1B600F33193 /* JigyasaUITests.swift */,
+				80FA136A1DE6E1B600F33193 /* Info.plist */,
+			);
+			path = JigyasaUITests;
+			sourceTree = "<group>";
+		};
+		80FA137E1DE6E36800F33193 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F023D1B11DEEEB11003FC84B /* JSCustomColor.swift */,
+				0FC4DC531E1A9DFE00987705 /* JSUIImageView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		80FA13801DE6E36800F33193 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F023D1901DEEEA54003FC84B /* JSEmployee.swift */,
+				F023D1911DEEEA54003FC84B /* JSEvent.swift */,
+				8A7ABE8C1E44595A00CE8505 /* JSHomeViewHeaderCellModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		80FA13891DE6E36800F33193 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A7ABE9E1E4460EE00CE8505 /* JSAboutViewController.swift */,
+				8A7ABEA01E4460F400CE8505 /* JSHelpViewController.swift */,
+				8A7ABEA41E44612900CE8505 /* JSSuggestTrainingViewController.swift */,
+				8A7ABEA61E44614800CE8505 /* JSTrainingDetailsViewController.swift */,
+				8A7ABEC01E44629B00CE8505 /* Home */,
+				8A7ABEB91E44627300CE8505 /* Admin */,
+				8A7ABEB41E44625A00CE8505 /* Menu */,
+				8A7ABEAF1E44624700CE8505 /* Login */,
+				8A7ABEAA1E4461B200CE8505 /* History */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		80FA13961DE6EAB800F33193 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				80FA13971DE6EAB800F33193 /* LaunchScreen.storyboard */,
+				8A173F2E1E4AFA810043B36B /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		8A7ABEAA1E4461B200CE8505 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				8A7ABEAB1E4461B200CE8505 /* JSTrainingHistoryTableViewCell.swift */,
+				8A7ABEAC1E4461B200CE8505 /* JSTrainingHistoryViewController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		8A7ABEAF1E44624700CE8505 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8A7ABEB01E44624700CE8505 /* JSLogInViewController+Container.swift */,
+				8A7ABEB11E44624700CE8505 /* JSLogInViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8A7ABEB41E44625A00CE8505 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				8A7ABEB51E44625A00CE8505 /* JSMenuTableViewController.swift */,
+				8A7ABEB61E44625A00CE8505 /* JSSideMenuTableViewCell.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		8A7ABEB91E44627300CE8505 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				8A7ABEBA1E44627300CE8505 /* JSAddManagerViewController.swift */,
+				8A7ABEBB1E44627300CE8505 /* JSAddNewTrainingViewController.swift */,
+				8A7ABEBC1E44627300CE8505 /* JSLocationViewController.swift */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		8A7ABEC01E44629B00CE8505 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8A7ABEC11E44629B00CE8505 /* JSHomeViewController.swift */,
+				8A7ABEC21E44629B00CE8505 /* JSTrainingGroupHeaderTableViewCell.swift */,
+				8A7ABEC31E44629B00CE8505 /* JSTrainingSuggestionTableViewCell.swift */,
+				8A7ABEC41E44629B00CE8505 /* JSTrainingTableViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80FA13441DE6E1B600F33193 /* Jigyasa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FA136D1DE6E1B600F33193 /* Build configuration list for PBXNativeTarget "Jigyasa" */;
+			buildPhases = (
+				80FA13411DE6E1B600F33193 /* Sources */,
+				80FA13421DE6E1B600F33193 /* Frameworks */,
+				80FA13431DE6E1B600F33193 /* Resources */,
+				F023D1B31DEEEB52003FC84B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jigyasa;
+			productName = Jigyasa;
+			productReference = 80FA13451DE6E1B600F33193 /* Jigyasa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80FA13581DE6E1B600F33193 /* JigyasaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FA13701DE6E1B600F33193 /* Build configuration list for PBXNativeTarget "JigyasaTests" */;
+			buildPhases = (
+				80FA13551DE6E1B600F33193 /* Sources */,
+				80FA13561DE6E1B600F33193 /* Frameworks */,
+				80FA13571DE6E1B600F33193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80FA135B1DE6E1B600F33193 /* PBXTargetDependency */,
+			);
+			name = JigyasaTests;
+			productName = JigyasaTests;
+			productReference = 80FA13591DE6E1B600F33193 /* JigyasaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80FA13631DE6E1B600F33193 /* JigyasaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FA13731DE6E1B600F33193 /* Build configuration list for PBXNativeTarget "JigyasaUITests" */;
+			buildPhases = (
+				80FA13601DE6E1B600F33193 /* Sources */,
+				80FA13611DE6E1B600F33193 /* Frameworks */,
+				80FA13621DE6E1B600F33193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80FA13661DE6E1B600F33193 /* PBXTargetDependency */,
+			);
+			name = JigyasaUITests;
+			productName = JigyasaUITests;
+			productReference = 80FA13641DE6E1B600F33193 /* JigyasaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80FA133D1DE6E1B600F33193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Exilant Technologies";
+				TargetAttributes = {
+					80FA13441DE6E1B600F33193 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					80FA13581DE6E1B600F33193 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80FA13441DE6E1B600F33193;
+					};
+					80FA13631DE6E1B600F33193 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80FA13441DE6E1B600F33193;
+					};
+				};
+			};
+			buildConfigurationList = 80FA13401DE6E1B600F33193 /* Build configuration list for PBXProject "Jigyasa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80FA133C1DE6E1B600F33193;
+			productRefGroup = 80FA13461DE6E1B600F33193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80FA13441DE6E1B600F33193 /* Jigyasa */,
+				80FA13581DE6E1B600F33193 /* JigyasaTests */,
+				80FA13631DE6E1B600F33193 /* JigyasaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80FA13431DE6E1B600F33193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FA13991DE6EAB800F33193 /* LaunchScreen.storyboard in Resources */,
+				8A173F2F1E4AFA810043B36B /* Main.storyboard in Resources */,
+				8A7ABE9B1E44604A00CE8505 /* Assets.xcassets in Resources */,
+				8A7ABECA1E447A0400CE8505 /* LaunchIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FA13571DE6E1B600F33193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FA13621DE6E1B600F33193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F023D1B31DEEEB52003FC84B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80FA13411DE6E1B600F33193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7ABEC51E44629B00CE8505 /* JSHomeViewController.swift in Sources */,
+				F023D1931DEEEA54003FC84B /* JSEvent.swift in Sources */,
+				8A7ABEC61E44629B00CE8505 /* JSTrainingGroupHeaderTableViewCell.swift in Sources */,
+				8A7ABEAE1E4461B200CE8505 /* JSTrainingHistoryViewController.swift in Sources */,
+				8A173F311E4B5BC80043B36B /* JSServiceRequestManager.swift in Sources */,
+				8A7ABE911E44598C00CE8505 /* JSConstants.swift in Sources */,
+				8A7ABEB21E44624700CE8505 /* JSLogInViewController+Container.swift in Sources */,
+				8A7ABEC71E44629B00CE8505 /* JSTrainingSuggestionTableViewCell.swift in Sources */,
+				8A7ABEBF1E44627300CE8505 /* JSLocationViewController.swift in Sources */,
+				8A7ABEA51E44612900CE8505 /* JSSuggestTrainingViewController.swift in Sources */,
+				8A7ABE8F1E44597500CE8505 /* JSActivityIndicator.swift in Sources */,
+				8A7ABEBE1E44627300CE8505 /* JSAddNewTrainingViewController.swift in Sources */,
+				8A7ABE971E4459E500CE8505 /* JSAppDelegate.swift in Sources */,
+				8A7ABEA71E44614800CE8505 /* JSTrainingDetailsViewController.swift in Sources */,
+				F023D1B21DEEEB11003FC84B /* JSCustomColor.swift in Sources */,
+				8A7ABE951E4459CC00CE8505 /* JSUtility.swift in Sources */,
+				8A7ABEB81E44625A00CE8505 /* JSSideMenuTableViewCell.swift in Sources */,
+				8A7ABEB31E44624700CE8505 /* JSLogInViewController.swift in Sources */,
+				8A7ABEB71E44625A00CE8505 /* JSMenuTableViewController.swift in Sources */,
+				8A7ABEBD1E44627300CE8505 /* JSAddManagerViewController.swift in Sources */,
+				8A7ABE9F1E4460EE00CE8505 /* JSAboutViewController.swift in Sources */,
+				8A7ABEC81E44629B00CE8505 /* JSTrainingTableViewCell.swift in Sources */,
+				F023D1921DEEEA54003FC84B /* JSEmployee.swift in Sources */,
+				8A7ABE9D1E4460A800CE8505 /* JSUserDefaults.swift in Sources */,
+				8A7ABEA11E4460F400CE8505 /* JSHelpViewController.swift in Sources */,
+				8A7ABE8D1E44595A00CE8505 /* JSHomeViewHeaderCellModel.swift in Sources */,
+				8A7ABEAD1E4461B200CE8505 /* JSTrainingHistoryTableViewCell.swift in Sources */,
+				0FC4DC541E1A9DFE00987705 /* JSUIImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FA13551DE6E1B600F33193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FA135E1DE6E1B600F33193 /* JigyasaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FA13601DE6E1B600F33193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FA13691DE6E1B600F33193 /* JigyasaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80FA135B1DE6E1B600F33193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80FA13441DE6E1B600F33193 /* Jigyasa */;
+			targetProxy = 80FA135A1DE6E1B600F33193 /* PBXContainerItemProxy */;
+		};
+		80FA13661DE6E1B600F33193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80FA13441DE6E1B600F33193 /* Jigyasa */;
+			targetProxy = 80FA13651DE6E1B600F33193 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		80FA136B1DE6E1B600F33193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80FA136C1DE6E1B600F33193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80FA136E1DE6E1B600F33193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Jigyasa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Exilant.Jigyasa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80FA136F1DE6E1B600F33193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Jigyasa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Exilant.Jigyasa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80FA13711DE6E1B600F33193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JigyasaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Exilant.JigyasaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jigyasa.app/Jigyasa";
+			};
+			name = Debug;
+		};
+		80FA13721DE6E1B600F33193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JigyasaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Exilant.JigyasaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jigyasa.app/Jigyasa";
+			};
+			name = Release;
+		};
+		80FA13741DE6E1B600F33193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JigyasaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Exilant.JigyasaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Jigyasa;
+			};
+			name = Debug;
+		};
+		80FA13751DE6E1B600F33193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JigyasaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Exilant.JigyasaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Jigyasa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80FA13401DE6E1B600F33193 /* Build configuration list for PBXProject "Jigyasa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FA136B1DE6E1B600F33193 /* Debug */,
+				80FA136C1DE6E1B600F33193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FA136D1DE6E1B600F33193 /* Build configuration list for PBXNativeTarget "Jigyasa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FA136E1DE6E1B600F33193 /* Debug */,
+				80FA136F1DE6E1B600F33193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FA13701DE6E1B600F33193 /* Build configuration list for PBXNativeTarget "JigyasaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FA13711DE6E1B600F33193 /* Debug */,
+				80FA13721DE6E1B600F33193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FA13731DE6E1B600F33193 /* Build configuration list for PBXNativeTarget "JigyasaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FA13741DE6E1B600F33193 /* Debug */,
+				80FA13751DE6E1B600F33193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80FA133D1DE6E1B600F33193 /* Project object */;
+}
