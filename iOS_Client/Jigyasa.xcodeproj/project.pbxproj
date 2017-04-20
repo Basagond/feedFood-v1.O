@@ -8,6 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		0FC4DC541E1A9DFE00987705 /* JSUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC4DC531E1A9DFE00987705 /* JSUIImageView.swift */; };
+		425F89CA1E82AB6D00E5C90A /* JSHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEC11E44629B00CE8505 /* JSHomeViewController.swift */; };
+		425F89CB1E82AB6D00E5C90A /* JSEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F023D1911DEEEA54003FC84B /* JSEvent.swift */; };
+		425F89CC1E82AB6D00E5C90A /* JSTrainingGroupHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEC21E44629B00CE8505 /* JSTrainingGroupHeaderTableViewCell.swift */; };
+		425F89CD1E82AB6D00E5C90A /* JSTrainingHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEAC1E4461B200CE8505 /* JSTrainingHistoryViewController.swift */; };
+		425F89CE1E82AB6D00E5C90A /* JSServiceRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A173F301E4B5BC80043B36B /* JSServiceRequestManager.swift */; };
+		425F89CF1E82AB6D00E5C90A /* JSConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABE901E44598C00CE8505 /* JSConstants.swift */; };
+		425F89D01E82AB6D00E5C90A /* JSLogInViewController+Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEB01E44624700CE8505 /* JSLogInViewController+Container.swift */; };
+		425F89D11E82AB6D00E5C90A /* JSTrainingSuggestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEC31E44629B00CE8505 /* JSTrainingSuggestionTableViewCell.swift */; };
+		425F89D21E82AB6D00E5C90A /* JSLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEBC1E44627300CE8505 /* JSLocationViewController.swift */; };
+		425F89D31E82AB6D00E5C90A /* JSSuggestTrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEA41E44612900CE8505 /* JSSuggestTrainingViewController.swift */; };
+		425F89D41E82AB6D00E5C90A /* JSActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABE8E1E44597500CE8505 /* JSActivityIndicator.swift */; };
+		425F89D51E82AB6D00E5C90A /* JSAddNewTrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEBB1E44627300CE8505 /* JSAddNewTrainingViewController.swift */; };
+		425F89D61E82AB6D00E5C90A /* JSAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABE961E4459E500CE8505 /* JSAppDelegate.swift */; };
+		425F89D71E82AB6D00E5C90A /* JSTrainingDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEA61E44614800CE8505 /* JSTrainingDetailsViewController.swift */; };
+		425F89D81E82AB6D00E5C90A /* JSCustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F023D1B11DEEEB11003FC84B /* JSCustomColor.swift */; };
+		425F89D91E82AB6D00E5C90A /* JSUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABE941E4459CC00CE8505 /* JSUtility.swift */; };
+		425F89DA1E82AB6D00E5C90A /* JSSideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEB61E44625A00CE8505 /* JSSideMenuTableViewCell.swift */; };
+		425F89DB1E82AB6D00E5C90A /* JSLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEB11E44624700CE8505 /* JSLogInViewController.swift */; };
+		425F89DC1E82AB6D00E5C90A /* JSMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEB51E44625A00CE8505 /* JSMenuTableViewController.swift */; };
+		425F89DD1E82AB6D00E5C90A /* JSAddManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEBA1E44627300CE8505 /* JSAddManagerViewController.swift */; };
+		425F89DE1E82AB6D00E5C90A /* JSAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABE9E1E4460EE00CE8505 /* JSAboutViewController.swift */; };
+		425F89DF1E82AB6D00E5C90A /* JSTrainingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEC41E44629B00CE8505 /* JSTrainingTableViewCell.swift */; };
+		425F89E01E82AB6D00E5C90A /* JSEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F023D1901DEEEA54003FC84B /* JSEmployee.swift */; };
+		425F89E11E82AB6D00E5C90A /* JSUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABE9C1E4460A800CE8505 /* JSUserDefaults.swift */; };
+		425F89E21E82AB6D00E5C90A /* JSHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEA01E4460F400CE8505 /* JSHelpViewController.swift */; };
+		425F89E31E82AB6D00E5C90A /* JSHomeViewHeaderCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABE8C1E44595A00CE8505 /* JSHomeViewHeaderCellModel.swift */; };
+		425F89E41E82AB6D00E5C90A /* JSTrainingHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7ABEAB1E4461B200CE8505 /* JSTrainingHistoryTableViewCell.swift */; };
+		425F89E51E82AB6D00E5C90A /* JSUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC4DC531E1A9DFE00987705 /* JSUIImageView.swift */; };
+		425F89E81E82AB6D00E5C90A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FA13971DE6EAB800F33193 /* LaunchScreen.storyboard */; };
+		425F89E91E82AB6D00E5C90A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A173F2E1E4AFA810043B36B /* Main.storyboard */; };
+		425F89EA1E82AB6D00E5C90A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A7ABE9A1E44604A00CE8505 /* Assets.xcassets */; };
+		425F89EB1E82AB6D00E5C90A /* LaunchIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A7ABEC91E447A0400CE8505 /* LaunchIcon.png */; };
 		80FA135E1DE6E1B600F33193 /* JigyasaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FA135D1DE6E1B600F33193 /* JigyasaTests.swift */; };
 		80FA13691DE6E1B600F33193 /* JigyasaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FA13681DE6E1B600F33193 /* JigyasaUITests.swift */; };
 		80FA13991DE6EAB800F33193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FA13971DE6EAB800F33193 /* LaunchScreen.storyboard */; };
@@ -62,6 +94,8 @@
 
 /* Begin PBXFileReference section */
 		0FC4DC531E1A9DFE00987705 /* JSUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSUIImageView.swift; sourceTree = "<group>"; };
+		425F89F01E82AB6D00E5C90A /* Jigyasa-UAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jigyasa-UAT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		425F89F11E82AB6E00E5C90A /* Jigyasa-UAT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Jigyasa-UAT-Info.plist"; path = "/Users/basu/Desktop/myApps/feedFood-v1.O/iOS_Client/Jigyasa-UAT-Info.plist"; sourceTree = "<absolute>"; };
 		80FA13451DE6E1B600F33193 /* Jigyasa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jigyasa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80FA13591DE6E1B600F33193 /* JigyasaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JigyasaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80FA135D1DE6E1B600F33193 /* JigyasaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JigyasaTests.swift; sourceTree = "<group>"; };
@@ -104,6 +138,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		425F89E61E82AB6D00E5C90A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80FA13421DE6E1B600F33193 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -144,6 +185,7 @@
 				80FA13451DE6E1B600F33193 /* Jigyasa.app */,
 				80FA13591DE6E1B600F33193 /* JigyasaTests.xctest */,
 				80FA13641DE6E1B600F33193 /* JigyasaUITests.xctest */,
+				425F89F01E82AB6D00E5C90A /* Jigyasa-UAT.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -182,6 +224,7 @@
 			children = (
 				80FA13681DE6E1B600F33193 /* JigyasaUITests.swift */,
 				80FA136A1DE6E1B600F33193 /* Info.plist */,
+				425F89F11E82AB6E00E5C90A /* Jigyasa-UAT-Info.plist */,
 			);
 			path = JigyasaUITests;
 			sourceTree = "<group>";
@@ -281,6 +324,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		425F89C81E82AB6D00E5C90A /* Jigyasa-UAT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 425F89ED1E82AB6D00E5C90A /* Build configuration list for PBXNativeTarget "Jigyasa-UAT" */;
+			buildPhases = (
+				425F89C91E82AB6D00E5C90A /* Sources */,
+				425F89E61E82AB6D00E5C90A /* Frameworks */,
+				425F89E71E82AB6D00E5C90A /* Resources */,
+				425F89EC1E82AB6D00E5C90A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jigyasa-UAT";
+			productName = Jigyasa;
+			productReference = 425F89F01E82AB6D00E5C90A /* Jigyasa-UAT.app */;
+			productType = "com.apple.product-type.application";
+		};
 		80FA13441DE6E1B600F33193 /* Jigyasa */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80FA136D1DE6E1B600F33193 /* Build configuration list for PBXNativeTarget "Jigyasa" */;
@@ -377,11 +438,23 @@
 				80FA13441DE6E1B600F33193 /* Jigyasa */,
 				80FA13581DE6E1B600F33193 /* JigyasaTests */,
 				80FA13631DE6E1B600F33193 /* JigyasaUITests */,
+				425F89C81E82AB6D00E5C90A /* Jigyasa-UAT */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		425F89E71E82AB6D00E5C90A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425F89E81E82AB6D00E5C90A /* LaunchScreen.storyboard in Resources */,
+				425F89E91E82AB6D00E5C90A /* Main.storyboard in Resources */,
+				425F89EA1E82AB6D00E5C90A /* Assets.xcassets in Resources */,
+				425F89EB1E82AB6D00E5C90A /* LaunchIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80FA13431DE6E1B600F33193 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -410,6 +483,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		425F89EC1E82AB6D00E5C90A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
 		F023D1B31DEEEB52003FC84B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -426,6 +512,41 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		425F89C91E82AB6D00E5C90A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425F89CA1E82AB6D00E5C90A /* JSHomeViewController.swift in Sources */,
+				425F89CB1E82AB6D00E5C90A /* JSEvent.swift in Sources */,
+				425F89CC1E82AB6D00E5C90A /* JSTrainingGroupHeaderTableViewCell.swift in Sources */,
+				425F89CD1E82AB6D00E5C90A /* JSTrainingHistoryViewController.swift in Sources */,
+				425F89CE1E82AB6D00E5C90A /* JSServiceRequestManager.swift in Sources */,
+				425F89CF1E82AB6D00E5C90A /* JSConstants.swift in Sources */,
+				425F89D01E82AB6D00E5C90A /* JSLogInViewController+Container.swift in Sources */,
+				425F89D11E82AB6D00E5C90A /* JSTrainingSuggestionTableViewCell.swift in Sources */,
+				425F89D21E82AB6D00E5C90A /* JSLocationViewController.swift in Sources */,
+				425F89D31E82AB6D00E5C90A /* JSSuggestTrainingViewController.swift in Sources */,
+				425F89D41E82AB6D00E5C90A /* JSActivityIndicator.swift in Sources */,
+				425F89D51E82AB6D00E5C90A /* JSAddNewTrainingViewController.swift in Sources */,
+				425F89D61E82AB6D00E5C90A /* JSAppDelegate.swift in Sources */,
+				425F89D71E82AB6D00E5C90A /* JSTrainingDetailsViewController.swift in Sources */,
+				425F89D81E82AB6D00E5C90A /* JSCustomColor.swift in Sources */,
+				425F89D91E82AB6D00E5C90A /* JSUtility.swift in Sources */,
+				425F89DA1E82AB6D00E5C90A /* JSSideMenuTableViewCell.swift in Sources */,
+				425F89DB1E82AB6D00E5C90A /* JSLogInViewController.swift in Sources */,
+				425F89DC1E82AB6D00E5C90A /* JSMenuTableViewController.swift in Sources */,
+				425F89DD1E82AB6D00E5C90A /* JSAddManagerViewController.swift in Sources */,
+				425F89DE1E82AB6D00E5C90A /* JSAboutViewController.swift in Sources */,
+				425F89DF1E82AB6D00E5C90A /* JSTrainingTableViewCell.swift in Sources */,
+				425F89E01E82AB6D00E5C90A /* JSEmployee.swift in Sources */,
+				425F89E11E82AB6D00E5C90A /* JSUserDefaults.swift in Sources */,
+				425F89E21E82AB6D00E5C90A /* JSHelpViewController.swift in Sources */,
+				425F89E31E82AB6D00E5C90A /* JSHomeViewHeaderCellModel.swift in Sources */,
+				425F89E41E82AB6D00E5C90A /* JSTrainingHistoryTableViewCell.swift in Sources */,
+				425F89E51E82AB6D00E5C90A /* JSUIImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80FA13411DE6E1B600F33193 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -493,6 +614,36 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		425F89EE1E82AB6D00E5C90A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jigyasa-UAT-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = UAT;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Exilant.Jigyasa-UAT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		425F89EF1E82AB6D00E5C90A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jigyasa-UAT-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = UAT;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Exilant.Jigyasa-UAT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		80FA136B1DE6E1B600F33193 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -673,6 +824,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		425F89ED1E82AB6D00E5C90A /* Build configuration list for PBXNativeTarget "Jigyasa-UAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425F89EE1E82AB6D00E5C90A /* Debug */,
+				425F89EF1E82AB6D00E5C90A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		80FA13401DE6E1B600F33193 /* Build configuration list for PBXProject "Jigyasa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

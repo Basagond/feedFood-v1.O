@@ -175,7 +175,7 @@ class JSEventInfo {
         trainingId = responseDict[JSTrainingModelKey.trainingId.rawValue] as? Int ?? JSDefaultValues.defaultIntValue
         trainingName = responseDict[JSTrainingModelKey.title.rawValue] as? String ?? JSDefaultValues.defaultStringValue
         image = responseDict[JSTrainingModelKey.image.rawValue] as? String ?? JSDefaultValues.defaultStringValue
-        seats = responseDict[JSTrainingModelK ey.seats.rawValue] as? Int ?? JSDefaultValues.defaultIntValue
+        seats = responseDict[JSTrainingModelK, ey.seats.rawValue] as? Int ?? JSDefaultValues.defaultIntValue
         if let schedule = responseDict[JSEventModelKey.schedule.rawValue] as? JSONDictionary {
             self.schedule = JSSchedule(inputDictionary: schedule)
         }
