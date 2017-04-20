@@ -14,6 +14,7 @@ class JSActivityIndicator: UIView {
     
     override init(frame: CGRect) {
         
+        print("dev")
         super.init(frame:frame)
         self.backgroundColor = UIColor().activityIndicatorBackgroundColor
         
